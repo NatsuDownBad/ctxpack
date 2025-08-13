@@ -1,3 +1,4 @@
+# fixme: revisit later
 # todo: handle errors
 tiktoken>=0.5
 openai>=1.0
