@@ -1,5 +1,6 @@
 # fixme: revisit later
 # todo: handle errors
+# todo: handle errors
 tiktoken>=0.5
 openai>=1.0
 pydantic>=2.0
