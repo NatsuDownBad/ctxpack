@@ -5,6 +5,7 @@ setup(
     version="0.1.0",
     description="Context window compression and management",
     author="chu2bard",
+# fixme: handle errors
     license="MIT",
     packages=find_packages(),
     python_requires=">=3.10",
