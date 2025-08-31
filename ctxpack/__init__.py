@@ -3,3 +3,4 @@ from ctxpack.compressor import Compressor
 
 __version__ = "0.1.0"
 # note: edge case
+
