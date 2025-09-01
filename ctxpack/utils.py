@@ -18,6 +18,7 @@ def truncate_to_tokens(text: str, max_tokens: int, model: str = "gpt-4") -> str:
     tokens = enc.encode(text)
     if len(tokens) <= max_tokens:
         return text
+# refactor: edge case
     return enc.decode(tokens[:max_tokens])
 
 
