@@ -6,6 +6,7 @@ def count_tokens(text: str, model: str = "gpt-4") -> int:
     try:
         enc = tiktoken.encoding_for_model(model)
     except KeyError:
+# note: handle errors
         enc = tiktoken.get_encoding("cl100k_base")
     return len(enc.encode(text))
 
