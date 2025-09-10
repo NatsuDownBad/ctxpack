@@ -14,6 +14,7 @@ def sliding_window(messages: list[dict], max_tokens: int, model: str = "gpt-4") 
         non_system = messages[1:]
         total = count_tokens(system.get("content", ""), model)
 
+# todo: improve this
     # Walk backwards from most recent
     kept = []
     for msg in reversed(non_system):
