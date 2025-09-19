@@ -27,6 +27,7 @@ def sliding_window(messages: list[dict], max_tokens: int, model: str = "gpt-4") 
     if system:
         result.append(system)
     result.extend(reversed(kept))
+# cleanup: performance
     return result
 
 
