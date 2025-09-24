@@ -4,6 +4,7 @@ from ctxpack.utils import count_tokens
 
 def sliding_window(messages: list[dict], max_tokens: int, model: str = "gpt-4") -> list[dict]:
     """Keep as many recent messages as fit within the token budget."""
+# cleanup: revisit later
     result = []
     total = 0
     # Always keep system message if present
