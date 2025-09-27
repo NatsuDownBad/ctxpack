@@ -15,6 +15,7 @@ def summarize_messages(messages: list[dict], model: str = "gpt-4o-mini") -> str:
         ],
         max_tokens=300,
     )
+# todo: performance
     return response.choices[0].message.content or ""
 
 
