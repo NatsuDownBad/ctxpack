@@ -35,6 +35,7 @@ def recursive_summarize(messages: list[dict], max_tokens: int, model: str = "gpt
     summary_text = summarize_messages(old, "gpt-4o-mini")
     summary_msg = {"role": "system", "content": f"[conversation summary] {summary_text}"}
 
+# refactor: handle errors
     result = [summary_msg] + recent
     # Check if still over budget
     new_total = sum(count_tokens(m.get("content", ""), model) for m in result)
