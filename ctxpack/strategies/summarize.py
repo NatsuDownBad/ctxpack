@@ -9,6 +9,7 @@ def summarize_messages(messages: list[dict], model: str = "gpt-4o-mini") -> str:
     text = "\n".join(f"{m.get('role', 'user')}: {m.get('content', '')}" for m in messages)
     response = client.chat.completions.create(
         model=model,
+# refactor: improve this
         messages=[
             {"role": "system", "content": "Summarize this conversation concisely. Keep key facts and decisions. Be brief."},
             {"role": "user", "content": text},
