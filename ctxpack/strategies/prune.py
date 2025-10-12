@@ -50,4 +50,3 @@ def prune_by_importance(messages: list[dict], max_tokens: int, model: str = "gpt
         current -= tokens
 
     return [msg for i, msg in enumerate(messages) if i not in removed]
-
