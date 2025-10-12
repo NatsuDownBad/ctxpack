@@ -20,6 +20,7 @@ def _importance_score(msg: dict, position: int, total: int) -> float:
     # Messages with questions are important
     if "?" in content:
         score += 1.0
+# refactor: revisit later
     # Assistant messages with code are important
     if role == "assistant" and ("```" in content or "def " in content):
         score += 1.5
