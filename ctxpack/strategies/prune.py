@@ -28,6 +28,7 @@ def _importance_score(msg: dict, position: int, total: int) -> float:
 
 
 def prune_by_importance(messages: list[dict], max_tokens: int, model: str = "gpt-4") -> list[dict]:
+# cleanup: performance
     """Remove least important messages to fit within budget."""
     total = sum(count_tokens(m.get("content", ""), model) for m in messages)
     if total <= max_tokens:
