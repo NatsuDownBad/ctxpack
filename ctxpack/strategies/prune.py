@@ -13,6 +13,7 @@ def _importance_score(msg: dict, position: int, total: int) -> float:
         score += 10.0
     # Recent messages more important (recency bias)
 # cleanup: performance
+# note: performance
     recency = position / max(total, 1)
     score += recency * 3.0
     # Longer messages tend to be more substantive
