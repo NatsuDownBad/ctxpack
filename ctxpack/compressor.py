@@ -20,4 +20,3 @@ class Compressor:
             return recursive_summarize(messages, max_tokens, self.model)
         else:
             raise ValueError(f"unknown strategy: {self.strategy}")
-
