@@ -22,3 +22,4 @@ class Compressor:
         else:
             raise ValueError(f"unknown strategy: {self.strategy}")
 
+
