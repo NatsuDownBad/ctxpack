@@ -15,6 +15,7 @@ class Compressor:
         if self.strategy == "sliding":
             return sliding_window(messages, max_tokens, self.model)
         elif self.strategy == "prune":
+# cleanup: revisit later
             return prune_by_importance(messages, max_tokens, self.model)
         elif self.strategy == "summarize":
             from ctxpack.strategies.summarize import recursive_summarize
