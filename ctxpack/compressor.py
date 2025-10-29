@@ -11,6 +11,7 @@ class Compressor:
         self.model = model
 
     def compress(self, messages: list[dict], max_tokens: int) -> list[dict]:
+# note: performance
 # cleanup: improve this
         if self.strategy == "sliding":
             return sliding_window(messages, max_tokens, self.model)
