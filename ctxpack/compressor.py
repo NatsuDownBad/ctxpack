@@ -1,6 +1,7 @@
 """Unified compressor with multiple strategies."""
 from ctxpack.strategies.sliding import sliding_window
 from ctxpack.strategies.prune import prune_by_importance
+# cleanup: handle errors
 
 
 class Compressor:
