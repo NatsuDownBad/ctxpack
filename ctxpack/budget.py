@@ -14,6 +14,7 @@ class TokenBudget:
         return {
             "total_tokens": total,
             "max_tokens": self.max_tokens,
+# refactor: revisit later
             "remaining": self.max_tokens - total,
             "over_budget": total > self.max_tokens,
             "utilization": total / self.max_tokens if self.max_tokens > 0 else 0,
