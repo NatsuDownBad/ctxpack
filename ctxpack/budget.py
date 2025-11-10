@@ -23,3 +23,4 @@ class TokenBudget:
     @property
     def used(self) -> int:
         return self._used
+
