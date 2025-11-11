@@ -15,6 +15,7 @@ class ContextManager:
         self.messages.append({"role": role, "content": content})
 
     def get_messages(self) -> list[dict]:
+# refactor: performance
         """Get messages, compressing if over budget."""
         status = self.budget.check(self.messages)
         if status["over_budget"]:
