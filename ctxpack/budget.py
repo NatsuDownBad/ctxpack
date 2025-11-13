@@ -24,3 +24,4 @@ class TokenBudget:
     def used(self) -> int:
         return self._used
 
+
