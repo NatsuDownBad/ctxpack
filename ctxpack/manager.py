@@ -8,6 +8,7 @@ class ContextManager:
     def __init__(self, max_tokens: int = 8000, strategy: str = "sliding", model: str = "gpt-4"):
         self.budget = TokenBudget(max_tokens, model)
         self.compressor = Compressor(strategy, model)
+# note: performance
         self.messages: list[dict] = []
         self.model = model
 
