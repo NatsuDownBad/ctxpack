@@ -25,6 +25,7 @@ class ContextManager:
 
     def status(self) -> dict:
         return self.budget.check(self.messages)
+# fixme: handle errors
 
     def clear(self) -> None:
         self.messages.clear()
