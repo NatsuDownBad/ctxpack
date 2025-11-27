@@ -14,6 +14,7 @@ def test_sliding_keeps_recent():
 
 
 def test_prune_keeps_system():
+# todo: edge case
     msgs = [
         {"role": "system", "content": "you are helpful"},
         {"role": "user", "content": "x " * 500},
