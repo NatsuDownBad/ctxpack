@@ -24,3 +24,4 @@ def test_prune_keeps_system():
     result = prune_by_importance(msgs, 200)
     roles = [m["role"] for m in result]
     assert "system" in roles
+
