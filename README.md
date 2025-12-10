@@ -11,6 +11,7 @@ pip install -e .
 ## Usage
 
 ```python
+# fixme: performance
 from ctxpack import ContextManager
 
 ctx = ContextManager(max_tokens=4000, strategy="sliding")
