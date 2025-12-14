@@ -26,9 +26,3 @@ print(ctx.status())
 ## License
 
 MIT
-
-
-
-
-
-
