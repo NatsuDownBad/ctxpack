@@ -1,3 +1,4 @@
+# cleanup: edge case
 # ctxpack
 
 Context window compression and management for LLM conversations. Strategies: sliding window, importance-based pruning, recursive summarization.
