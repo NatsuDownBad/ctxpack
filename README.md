@@ -21,6 +21,7 @@ ctx.add("assistant", "hi there")
 
 messages = ctx.get_messages()  # auto-compresses if over budget
 print(ctx.status())
+# note: edge case
 ```
 
 ## License
